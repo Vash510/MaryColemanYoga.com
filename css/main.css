@@ -7,7 +7,7 @@
 
 body {
     font-family: 'Poppins', sans-serif;
-    font-size: 16px;
+    font-size: 20px;
 }
 
 a {
@@ -71,9 +71,11 @@ nav a {
 }
 
 
+#splash {
+    height: 100vh;
+}
+
 .splash {
-    display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
@@ -113,8 +115,6 @@ nav a {
 }
 
 .splash-imgs {
-    display: flex;
-    flex-direction: row;
     justify-content: center;
     align-items: center;
     width: 70%;
@@ -143,42 +143,89 @@ nav a {
 
 
 #about {
+    height: 100vh;
     width: 85%;
     margin: 0 auto;
 }
 
 .section-heading{
-    display: flex;
-    flex-direction: column;
     justify-content: flex-start;
     width: 100%;
 }
 
 .columns-container {
-    display: flex;
-    flex-direction: row;
     justify-content: center;
     align-items: center;
 }
 
 .col1 {
-    display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
     width: 50%;
     margin-right: 10%;
+    margin-top: 100px;
+}
+
+.subheading {
+    font-size: 20;
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+
+.content {
+    margin: 10px;
 }
 
 .col2 {
     width: 50%;
     margin-left: 10%;
+    margin-top: 100px;
 }
 
 .col2 img {
     background-color: grey;
     width: 600px;
     height: 750px;
+}
+
+
+#services {
+    width: 85%;
+    margin: 0 auto;
+    height: 100vh;
+}
+
+.services-containter {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 40px auto;
+}
+
+.service {
+    margin: 20px auto;
+    border: #A7BFB0 solid 3px;
+}
+
+.service-content {
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 10px auto;
+}
+
+
+.service-img {
+    background-color: grey;
+    justify-content: center;
+    height: 320px;
+    width: 420px;
+}
+
+.service-heading {
+    font-size: 24px;
+    margin: 20px auto;
 }
 
 
@@ -210,4 +257,22 @@ nav a {
 
 .roboto {
     font-family: 'Roboto', sans-serif;
+}
+
+.itallic {
+    font-weight: 300;
+    font-style: italic;
+}
+
+
+.flex {
+    display: flex;
+}
+
+.columns {
+    flex-direction: column;
+}
+
+.rows {
+    flex-direction: row;
 }
