@@ -78,12 +78,14 @@ nav a {
     align-items: center;
     text-align: center;
     margin-top: 100px;
+    width: 85%;
+    margin: 100px auto 30px;
 }
 
 .splash h1{
     font-size: 60px;
     font-weight: 300;
-    margin: 60px auto;
+    margin: 40px auto 20px;
 }
 
 .splash p {
@@ -92,8 +94,13 @@ nav a {
     margin-bottom: 1%;
 }
 
+.splash .mission {
+    font-size: 24px;
+    width: 55%;
+}
+
 .splash .btn {
-    margin-top: 0;
+    margin-top: 10px;
 }
 
 
@@ -102,7 +109,7 @@ nav a {
     width: 888px;
     height: 3px;
     background-color: #5D4744;
-    margin: 1.5% auto 0 auto;
+    margin: 20px auto 20px;
 }
 
 .splash-imgs {
@@ -111,7 +118,7 @@ nav a {
     justify-content: center;
     align-items: center;
     width: 70%;
-    margin: 3%;
+    margin: 1.5%;
 }
 
 .splash-imgs .img1 {
