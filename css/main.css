@@ -190,7 +190,7 @@ nav a {
 
 
 #services {
-    width: 85%;
+    width: 75%;
     margin: 0 auto;
     height: 100vh;
 }
@@ -228,7 +228,41 @@ nav a {
     margin: 20px auto;
 }
 
+#contact {
+    width: 85%;
+    margin: 0 auto;
+}
 
+
+footer {
+    width: 100%;
+    background-color: #5D4744;
+    color: white;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+.copyright {
+    margin: auto auto;
+    padding: 20px;
+    font-size: 24px;
+}
+
+.address {
+    margin-left: 50px;
+    padding: 20px;
+}
+
+.email {
+    margin-right: 50px;
+    padding: 20px;
+    font-size: 24px;
+}
 
 
 
